@@ -25,7 +25,7 @@
 
 - 配置nginx文件
 
-  ```json
+  ```nginx
   # /usr/local/nginx/conf/nginx.conf(先对文件进行备份)
   server {
           listen       443 ssl;
@@ -177,5 +177,3 @@
   chmod +x server.py
   chmod +x client.py
   ```
-
-  
